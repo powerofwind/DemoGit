@@ -1,0 +1,12 @@
+- git clone URL
+- git checkout -b branchName
+- git status
+- git add .
+- git commit -m "detail;"
+- git chekout master
+- git pull --rebase
+- git merge --no-ff branchName
+- git push
+- git branch -d branchName
+
+-git branch
