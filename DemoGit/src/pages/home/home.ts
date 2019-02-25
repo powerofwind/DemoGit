@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
+import { DemopoppyPage } from '../demopoppy/demopoppy';
 
 @Component({
   selector: 'page-home',
@@ -13,6 +14,9 @@ export class HomePage {
 
   summit(){
     this.navCtrl.push("AuroraPage");
+  }
+  poppy(){
+    this.navCtrl.push(DemopoppyPage);
   }
 
 }
