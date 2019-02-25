@@ -14,5 +14,7 @@ export class HomePage {
   summit(){
     this.navCtrl.push("AuroraPage");
   }
-
+  skw(){
+    this.navCtrl.push("SakolwanPage");
+  }
 }
