@@ -17,4 +17,8 @@ export class HomePage {
   skw(){
     this.navCtrl.push("SakolwanPage");
   }
+  Corp(){
+    this.navCtrl.push("CorpPage");
+  }
+
 }
