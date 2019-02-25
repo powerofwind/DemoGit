@@ -20,5 +20,7 @@ export class HomePage {
   Corp(){
     this.navCtrl.push("CorpPage");
   }
-
+  panitan(){
+    this.navCtrl.push("PanitanPage");
+  }
 }
