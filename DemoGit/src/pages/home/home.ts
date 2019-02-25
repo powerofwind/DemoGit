@@ -14,5 +14,9 @@ export class HomePage {
   summit(){
     this.navCtrl.push("AuroraPage");
   }
+  buttonsummit(){
+    this.navCtrl.push("FlukePage");
+  }
+  
 
 }
