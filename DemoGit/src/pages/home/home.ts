@@ -23,4 +23,7 @@ export class HomePage {
   panitan(){
     this.navCtrl.push("PanitanPage");
   }
+  guy(){
+    this.navCtrl.push("GuyPage");
+  }
 }
