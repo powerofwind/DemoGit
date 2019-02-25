@@ -30,5 +30,11 @@ export class HomePage {
   panitan(){
     this.navCtrl.push("PanitanPage");
   }
+<<<<<<< HEAD
 >>>>>>> 1df42d3615e09e309f34f2270f7ab1216b3c7127
+=======
+  guy(){
+    this.navCtrl.push("GuyPage");
+  }
+>>>>>>> guy
 }
