@@ -14,5 +14,8 @@ export class HomePage {
   summit(){
     this.navCtrl.push("AuroraPage");
   }
+  Corp(){
+    this.navCtrl.push("CorpPage");
+  }
 
 }
