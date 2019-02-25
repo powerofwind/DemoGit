@@ -17,24 +17,25 @@ export class HomePage {
   skw(){
     this.navCtrl.push("SakolwanPage");
   }
-<<<<<<< HEAD
   buttonsummit(){
     this.navCtrl.push("FlukePage");
   }
   
 
-=======
   Corp(){
     this.navCtrl.push("CorpPage");
   }
   panitan(){
     this.navCtrl.push("PanitanPage");
   }
-<<<<<<< HEAD
->>>>>>> 1df42d3615e09e309f34f2270f7ab1216b3c7127
-=======
+
   guy(){
     this.navCtrl.push("GuyPage");
   }
->>>>>>> guy
+
+  chokdee(){
+    this.navCtrl.push("ChokdeePage");
+  }
+
+
 }
