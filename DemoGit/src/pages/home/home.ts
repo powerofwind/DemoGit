@@ -17,4 +17,9 @@ export class HomePage {
   skw(){
     this.navCtrl.push("SakolwanPage");
   }
+  buttonsummit(){
+    this.navCtrl.push("FlukePage");
+  }
+  
+
 }
