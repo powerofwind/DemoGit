@@ -13,6 +13,11 @@ export class HomePage {
 
   summit(){
     this.navCtrl.push("AuroraPage");
+    
   }
 
+  onsummit(){
+    this.navCtrl.push("PatPage");
+    
+  }
 }
