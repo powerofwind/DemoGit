@@ -2,8 +2,8 @@
 - git checkout -b branchName
 - git status
 - git add .
-- git commit -m "detail;"
-- git chekout master
+- git commit -m "detail"
+- git checkout master
 - git pull --rebase
 - git merge --no-ff branchName
 - git push
