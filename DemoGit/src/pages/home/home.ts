@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
+import { DemopoppyPage } from '../demopoppy/demopoppy';
 
 @Component({
   selector: 'page-home',
@@ -18,7 +19,9 @@ export class HomePage {
     this.navCtrl.push("SakolwanPage");
   }
   Corp(){
-    this.navCtrl.push("CorpPage");
+    this.navCtrl.push("CorpPage")};
+  poppy(){
+    this.navCtrl.push("DemopoppyPage");
   }
 
 }
