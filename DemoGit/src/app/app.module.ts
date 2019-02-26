@@ -1,3 +1,4 @@
+import { BallPage } from './../pages/ball/ball';
 import { BrowserModule } from '@angular/platform-browser';
 import { ErrorHandler, NgModule } from '@angular/core';
 import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
@@ -13,6 +14,7 @@ import { DemopoppyPage } from '../pages/demopoppy/demopoppy';
     MyApp,
     HomePage,
     DemopoppyPage,
+    BallPage
   ],
   imports: [
     BrowserModule,
@@ -23,6 +25,7 @@ import { DemopoppyPage } from '../pages/demopoppy/demopoppy';
     MyApp,
     HomePage,
     DemopoppyPage,
+    BallPage
   ],
   providers: [
     StatusBar,
