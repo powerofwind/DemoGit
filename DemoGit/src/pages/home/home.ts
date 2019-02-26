@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 import { DemopoppyPage } from '../demopoppy/demopoppy';
+import { BallPage } from '../ball/ball';
 
 @Component({
   selector: 'page-home',
@@ -55,6 +56,6 @@ export class HomePage {
     this.navCtrl.push("TaePage")
   }
   ball(){
-    this.navCtrl.push("BallPage")
+    this.navCtrl.push(BallPage)
   }
 }
