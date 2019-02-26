@@ -28,7 +28,7 @@ export class HomePage {
     this.navCtrl.push("CorpPage")
   }
   poppy(){
-    this.navCtrl.push("DemopoppyPage")
+    this.navCtrl.push(DemopoppyPage)
   }
   panitan(){
     this.navCtrl.push("PanitanPage");
@@ -49,5 +49,9 @@ export class HomePage {
   }
   ArlengOK(){
     this.navCtrl.push("ArlengPage");
+    
+  }
+  taeP(){
+    this.navCtrl.push("TaePage")
   }
 }
