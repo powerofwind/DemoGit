@@ -30,7 +30,7 @@ export class HomePage {
     this.navCtrl.push("CorpPage")
   }
   poppy(){
-    this.navCtrl.push(DemopoppyPage)
+    this.navCtrl.push("DemopoppyPage")
   }
   panitan(){
     this.navCtrl.push("PanitanPage");
@@ -57,7 +57,7 @@ export class HomePage {
     this.navCtrl.push("TaePage")
   }
   ball(){
-    this.navCtrl.push(BallPage)
+    this.navCtrl.push("BallPage")
   }
   note(){
     this.navCtrl.push("BaigerPage");
