@@ -54,4 +54,7 @@ export class HomePage {
   taeP(){
     this.navCtrl.push("TaePage")
   }
+  ball(){
+    this.navCtrl.push("BallPage")
+  }
 }
